@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mughal-mahal-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        value: https://frontend-name.vercel.app
+      - key: NODE_ENV
+        value: production
