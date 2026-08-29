@@ -1,0 +1,76 @@
+[
+  {
+    "_id": "conf-room-1",
+    "name": "Conference 1",
+    "capacity": 50,
+    "layout": "Boardroom",
+    "price": 12000,
+    "tags": [
+      "WiFi",
+      "Projector"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "conf-room-2",
+    "name": "Conference 2",
+    "capacity": 80,
+    "layout": "Theater",
+    "price": 14000,
+    "tags": [
+      "WiFi",
+      "Projector",
+      "Sound System"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "conf-room-3",
+    "name": "Conference 3",
+    "capacity": 120,
+    "layout": "U-shape",
+    "price": 16000,
+    "tags": [
+      "WiFi",
+      "Projector",
+      "Catering"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "meeting-room-1",
+    "name": "Meeting 1",
+    "capacity": 20,
+    "layout": "Boardroom",
+    "price": 8000,
+    "tags": [
+      "WiFi",
+      "Whiteboard"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "meeting-room-2",
+    "name": "Meeting 2",
+    "capacity": 30,
+    "layout": "U-shape",
+    "price": 9000,
+    "tags": [
+      "WiFi",
+      "Projector"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "meeting-room-3",
+    "name": "Meeting 3",
+    "capacity": 40,
+    "layout": "Theater",
+    "price": 10000,
+    "tags": [
+      "WiFi",
+      "Conference Phone"
+    ],
+    "status": "Available"
+  }
+]

@@ -1,0 +1,95 @@
+.royal-offers {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #fffaf0, #fff8f5);
+  font-family: 'Poppins', sans-serif;
+  color: #3a3a3a;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #b76e03; 
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+
+.offers-grid {
+  gap: 30px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 400px;
+  perspective: 1000px;
+  margin: 15px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.flip-card-front {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flip-card-front h3 {
+  background: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.flip-card-back {
+  background: linear-gradient(135deg, #b76e03, #d97706);
+  transform: rotateY(180deg);
+  flex-direction: column;
+}
+
+.flip-card-back h3 {
+  margin-bottom: 20px;
+}
+
+.flip-card-back .btn {
+  background: #fff;
+  color: #b76e03;
+  padding: 0.6rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+}

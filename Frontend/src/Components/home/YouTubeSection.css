@@ -1,0 +1,78 @@
+.youtube-section {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #fff4e5, #fff8f0);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #3a3a3a;
+}
+
+.youtube-section h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #b76e03; 
+}
+
+.youtube-section p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+  line-height: 1.6;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+.video-wrapper:hover {
+  transform: scale(1.03);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: rgba(255, 215, 0, 0.9); 
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  cursor: pointer;
+}
+
+.video-wrapper:hover .video-overlay {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+  .video-wrapper iframe {
+    height: 300px;
+  }
+
+  .youtube-section h2 {
+    font-size: 2rem;
+  }
+
+  .youtube-section p {
+    font-size: 1rem;
+  }
+}

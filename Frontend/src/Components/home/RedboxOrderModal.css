@@ -1,0 +1,33 @@
+.redbox-order-panel{width:100%;display:flex;justify-content:center;}
+.redbox-order-modal{background:#111;color:#fff;width:100%;max-width:720px;border-radius:18px;box-shadow:0 25px 80px rgba(0,0,0,.25);padding:24px;position:relative;box-sizing:border-box}
+.redbox-order-close{display:none}
+.redbox-order-form{display:flex;flex-direction:column;gap:14px}
+.redbox-order-form label{font-size:.95rem;font-weight:700;position:static !important;top:auto !important;left:auto !important;display:block !important;margin:14px 0 8px !important;}
+.redbox-order-form input,
+.redbox-order-form select,
+.redbox-order-form textarea{background:#181818;color:#fff;border:1px solid #333}
+.redbox-order-actions{display:flex;justify-content:flex-start;gap:12px}
+.redbox-order-submit,
+.redbox-order-cancel{min-width:140px}
+.redbox-order-form label{display:block;margin:14px 0 8px;font-weight:700;font-size:.95rem}
+.redbox-order-form select,.redbox-order-form input,.redbox-order-form textarea{width:100%;padding:12px;border-radius:12px;border:1px solid #333;background:#181818;color:#fff;outline:none}
+.redbox-order-form textarea{min-height:100px;resize:vertical}
+.redbox-order-items{display:flex;flex-direction:column;gap:16px}
+.redbox-order-item-card{background:#161616;border:1px solid #333;border-radius:18px;padding:18px;box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.redbox-order-item-header{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:16px;font-weight:700;color:#f8f8f8}
+.redbox-order-item-remove{background:transparent;color:#ff6b6b;border:1px solid #ff6b6b;border-radius:10px;padding:8px 12px;cursor:pointer;font-size:.9rem;transition:background .2s,color .2s}
+.redbox-order-item-remove:hover{background:#ff6b6b;color:#111}
+.redbox-order-item-fields{display:grid;grid-template-columns:1fr 1fr 120px;gap:14px}
+.redbox-order-item-field{display:flex;flex-direction:column;gap:8px}
+.redbox-order-item-field label{margin:0;font-size:.9rem;font-weight:600;color:#c9c9c9}
+.redbox-order-item-field select,.redbox-order-item-field input{width:100%;padding:10px 12px;border-radius:12px;border:1px solid #333;background:#181818;color:#fff;outline:none}
+.redbox-order-item-summary{margin-top:14px;padding:12px 14px;border-radius:14px;background:#111;color:#d1d1d1;font-size:.95rem;border:1px solid #222}
+.redbox-order-add-item{background:transparent;color:#c9a13a;border:1px solid #c9a13a;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:700;transition:background .2s,color .2s;margin-bottom:8px}
+.redbox-order-add-item:hover{background:#c9a13a;color:#111}
+.redbox-order-summary{margin:20px 0 0;font-size:1rem;font-weight:700;color:#c9a13a}
+.redbox-order-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.redbox-order-submit,.redbox-order-cancel{flex:1;border:none;border-radius:12px;padding:12px 14px;cursor:pointer;font-weight:700}
+.redbox-order-submit{background:#c9a13a;color:#111}
+.redbox-order-cancel{background:#292929;color:#fff}
+.redbox-order-error{color:#ff7373;margin-top:12px}
+.redbox-order-success{color:#8dc56d;margin-top:12px}

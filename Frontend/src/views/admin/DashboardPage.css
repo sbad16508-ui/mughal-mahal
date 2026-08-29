@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f6f2;
+}
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, #1b1b1b, #2b2b2b);
+  color: #fff;
+  padding: 25px 20px;
+}
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.4rem;
+  color: #c9a13a;
+  margin-bottom: 40px;
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-menu li {
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sidebar-menu li:hover,
+.sidebar-menu li.active {
+  background: rgba(201, 161, 58, 0.15);
+  color: #c9a13a;
+}
+.main-content {
+  flex: 1;
+  background: #faf9f6;
+}
+.navbar {
+  background: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.stat-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+  transition: all 0.35s ease;
+}
+.stat-card:hover {
+  transform: translateY(-6px);
+}
+.stat-icon {
+  font-size: 2.2rem;
+  color: #b68c34;
+}
+.luxury-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+.status.confirmed {
+  background: rgba(15, 157, 88, 0.15);
+  color: #0f9d58;
+}
+.status.pending {
+  background: rgba(201, 161, 58, 0.2);
+  color: #b68c34;
+}
+.progress-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 25px auto 0;
+  background: conic-gradient(#c9a13a 72%, #eee 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1b1b1b;
+}

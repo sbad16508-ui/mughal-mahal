@@ -1,0 +1,32 @@
+.edit-page-container { padding: 40px; background-color: #f8f9fa; min-height: 100vh; font-family: 'Inter', sans-serif; }
+.edit-header { margin-bottom: 30px; }
+.header-left { display: flex; align-items: center; gap: 20px; }
+.back-btn-ui { padding: 8px 15px; border: 1px solid #ddd; background: #fff; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 8px; }
+.title-area h1 { margin: 0; font-size: 24px; color: #111; }
+.subtitle { margin: 0; color: #777; font-size: 14px; }
+.edit-grid-layout { display: grid; grid-template-columns: 1fr 340px; gap: 30px; max-width: 1250px; }
+.form-column { display: flex; flex-direction: column; }
+.sidebar-column { display: flex; flex-direction: column; height: fit-content; }
+.form-card, .summary-card { background: #fff; border-radius: 12px; border: 1px solid #eeeeee; padding: 30px; margin-bottom: 25px; }
+.card-title { font-size: 17px; font-weight: 600; color: #333; margin-bottom: 20px; }
+.p-header { padding: 20px 25px 15px 25px !important; border-bottom: 1px solid #f9f9f9; margin-bottom: 0; }
+.input-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.input-group { display: flex; flex-direction: column; gap: 8px; }
+.full-width { grid-column: span 2; }
+label { font-size: 13px; font-weight: 600; color: #333; }
+input, select, textarea { 
+  padding: 12px; 
+  border-radius: 8px; 
+  border: 1px solid #e0e0e0; 
+  background: #f4f6f8; 
+  font-size: 14px;
+}
+textarea { height: 80px; resize: none; }
+.notes-area { width: 100%; box-sizing: border-box; }
+.sidebar-body { padding: 20px 25px; }
+.status-select { width: 100%; margin-top: 10px; background: #fff; }
+.sum-row { display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 14px; }
+.total-gold { color: #d4a017; font-weight: 700; margin-top: 15px; border-top: 1px solid #f0f0f0; padding-top: 15px; }
+.sidebar-actions { display: flex; flex-direction: column; gap: 10px; }
+.gold-btn-full { background: #d4a017; color: #fff; border: none; padding: 14px; border-radius: 8px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.cancel-btn-outline { background: #fff; border: 1px solid #ddd; padding: 12px; border-radius: 8px; font-weight: 600; cursor: pointer; }

@@ -1,0 +1,391 @@
+
+.animated-navbar {
+  animation: slideDown 0.8s ease forwards;
+  transition: all 0.3s ease;
+}
+
+/* Ensure dropdowns are not clipped by sliders or other sections */
+.animated-navbar,
+.navbar,
+.navbar-nav {
+  overflow: visible !important;
+}
+
+.animated-navbar {
+  z-index: 9999;
+  position: relative;
+}
+
+.navbar .container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  min-width: 0;
+  width: 100%;
+  max-width: 100% !important;
+  padding: 0 8px;
+}
+
+.hotel-logo {
+  margin-right: 0;
+}
+
+.navbar-collapse {
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  order: 1;
+  margin-left: auto;
+  width: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: nowrap;
+  min-width: 0;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.navbar-nav .nav-item,
+.navbar-nav .dropdown {
+  flex-shrink: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-nav .nav-item,
+.navbar-nav .dropdown {
+  flex-shrink: 0;
+}
+
+.hotel-logo img {
+  height: 30px;
+  width: auto;
+  max-width: 80px;
+  transition: all 0.35s ease;
+}
+
+
+.hotel-logo:hover img {
+  transform: translateY(-1px);
+  filter: drop-shadow(0 6px 12px rgba(182, 140, 52, 0.35));
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.navbar-scrolled {
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+.brand-animate {
+  color: #b68c34;
+  letter-spacing: 1px;
+  animation: fadeLeft 1s ease forwards;
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.nav-animate {
+  opacity: 0;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.nav-link {
+  position: relative;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: #c9a13a;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #c9a13a;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Icon-based menu styles */
+.nav-icon-item {
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 8px 12px !important;
+  border-radius: 10px;
+}
+
+.nav-icon {
+  font-size: 28px;
+  transition: all 0.3s ease;
+  color: #b68c34;
+}
+
+.nav-text {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.nav-icon-link:hover {
+  color: #c9a13a;
+  background-color: rgba(201, 161, 58, 0.1);
+  transform: translateY(-3px);
+}
+
+.nav-icon-link:hover .nav-icon {
+  font-size: 32px;
+  color: #c9a13a;
+  transform: scale(1.1);
+}
+
+.book-now-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #c9a13a, #b68c34);
+}
+
+.book-icon {
+  font-size: 18px;
+}
+
+.nav-item.book-item {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .navbar .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .hotel-logo {
+    max-width: 140px;
+  }
+
+  .hotel-logo img {
+    max-width: 140px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .nav-icon-link {
+    padding: 10px 12px !important;
+  }
+
+  .nav-text {
+    font-size: 12px;
+  }
+
+  .nav-icon {
+    font-size: 22px;
+  }
+
+  /* Center action buttons and make them stack on mobile */
+  .nav-item.book-item {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .nav-item.login-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .book-btn {
+    min-width: 150px;
+    width: auto;
+  }
+}
+
+
+.book-btn {
+  background: linear-gradient(135deg, #c9a13a, #b68c34);
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 130px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.book-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(201, 161, 58, 0.4);
+}
+
+.profile-menu-wrapper {
+  position: relative;
+}
+
+.profile-menu-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+}
+
+.profile-menu-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.35);
+}
+
+.profile-dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 54px;
+  min-width: 180px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  padding: 8px 0;
+  z-index: 1200;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  text-align: left;
+  padding: 12px 18px;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.profile-dropdown-item:hover {
+  background: rgba(201, 161, 58, 0.08);
+}
+
+/* Show dropdown on hover for desktop */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex !important;
+  }
+
+  .navbar-nav .dropdown:hover > .dropdown-menu,
+  .navbar-nav .dropdown .dropdown-menu:hover {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu {
+    margin-top: 0;
+    border: none;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    left: 0;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgba(201,161,58,0.08);
+    color: #b68c34;
+  }
+}

@@ -1,0 +1,912 @@
+[
+  {
+    "_id": "room-1",
+    "roomNo": "1001",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": "2",
+    "price": "15000",
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Hello Sinha, Maryum, Armish",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "AC",
+      "Mini Bar"
+    ],
+    "status": "Available",
+    "images": [
+      "1783162765518-banner1.png"
+    ]
+  },
+  {
+    "_id": "room-2",
+    "roomNo": "102",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee",
+      "AC",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-3",
+    "roomNo": "103",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-4",
+    "roomNo": "104",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee",
+      "AC"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-5",
+    "roomNo": "105",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-6",
+    "roomNo": "106",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-7",
+    "roomNo": "107",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-8",
+    "roomNo": "108",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-9",
+    "roomNo": "109",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-10",
+    "roomNo": "110",
+    "roomType": "Deluxe Twin",
+    "floor": "1",
+    "size": "35 sqm",
+    "capacity": 2,
+    "price": 15000,
+    "bedType": "Twin",
+    "viewType": "City",
+    "description": "Deluxe Twin room with city view and modern amenities.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Tea/Coffee"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-11",
+    "roomNo": "111",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": "2",
+    "price": "14000",
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar",
+      "Kitchen",
+      "AC"
+    ],
+    "status": "Booked",
+    "images": []
+  },
+  {
+    "_id": "room-12",
+    "roomNo": "112",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-13",
+    "roomNo": "113",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-14",
+    "roomNo": "114",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-15",
+    "roomNo": "115",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-16",
+    "roomNo": "116",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-17",
+    "roomNo": "117",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-18",
+    "roomNo": "118",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-19",
+    "roomNo": "119",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-20",
+    "roomNo": "120",
+    "roomType": "Deluxe King",
+    "floor": "1",
+    "size": "38 sqm",
+    "capacity": 2,
+    "price": 14000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Deluxe King room with garden view and comfortable bedding.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-21",
+    "roomNo": "121",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-22",
+    "roomNo": "122",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-23",
+    "roomNo": "123",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-24",
+    "roomNo": "124",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-25",
+    "roomNo": "125",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-26",
+    "roomNo": "126",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-27",
+    "roomNo": "127",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-28",
+    "roomNo": "128",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-29",
+    "roomNo": "129",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-30",
+    "roomNo": "130",
+    "roomType": "Executive Room",
+    "floor": "2",
+    "size": "40 sqm",
+    "capacity": 2,
+    "price": 16000,
+    "bedType": "King",
+    "viewType": "City",
+    "description": "Executive Room with work desk and convenient layout.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Work Desk"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-31",
+    "roomNo": "131",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-32",
+    "roomNo": "132",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-33",
+    "roomNo": "133",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-34",
+    "roomNo": "134",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-35",
+    "roomNo": "135",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-36",
+    "roomNo": "136",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-37",
+    "roomNo": "137",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-38",
+    "roomNo": "138",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-39",
+    "roomNo": "139",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-40",
+    "roomNo": "140",
+    "roomType": "Executive Suite",
+    "floor": "3",
+    "size": "55 sqm",
+    "capacity": 2,
+    "price": 20000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Spacious Executive Suite with lounge area.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Living Area"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-41",
+    "roomNo": "141",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-42",
+    "roomNo": "142",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-43",
+    "roomNo": "143",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-44",
+    "roomNo": "144",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-45",
+    "roomNo": "145",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-46",
+    "roomNo": "146",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-47",
+    "roomNo": "147",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-48",
+    "roomNo": "148",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-49",
+    "roomNo": "149",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  },
+  {
+    "_id": "room-50",
+    "roomNo": "150",
+    "roomType": "Premier Suite",
+    "floor": "4",
+    "size": "70 sqm",
+    "capacity": 2,
+    "price": 22000,
+    "bedType": "King",
+    "viewType": "Garden",
+    "description": "Premier Suite with premium amenities and extra space.",
+    "amenities": [
+      "WiFi",
+      "TV",
+      "Mini Bar"
+    ],
+    "status": "Available"
+  }
+]

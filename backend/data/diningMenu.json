@@ -1,0 +1,207 @@
+{
+  "menu": [
+    {
+      "categoryId": 1,
+      "categoryName": "Appetizers",
+      "items": [
+        { "name": "Crispy Fried Prawn (7 Pcs)", "price": 2840 },
+        { "name": "Tempura Prawn (7 Pcs)", "price": 2830 },
+        { "name": "Panko Fried Fish (7 Pcs)", "price": 2290 },
+        { "name": "Finger Fish & Chips", "price": 2060 },
+        { "name": "Fish Pakora", "price": 1790 },
+        { "name": "Dhaka Fish", "price": 1770 },
+        { "name": "Chicken Drum Stick", "price": 1560 },
+        { "name": "Dhaka Chicken", "price": 1350 },
+        { "name": "Chicken Honey Wings", "price": 1290 },
+        { "name": "Club Sandwich", "price": 910 },
+        { "name": "Grilled Chicken Sandwich", "price": 760 },
+        { "name": "French Fries", "price": 530 },
+        { "name": "Fish Crackers", "price": 370 }
+      ]
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Bar B Que",
+      "items": [
+        { "name": "Royal BBQ Platter", "price": 10530 },
+        { "name": "Chicken BBQ Platter", "price": 4800 },
+        { "name": "BBQ Grill Batair", "price": 1940 },
+        { "name": "Mutton Grilled Champ", "price": 3350 },
+        { "name": "Mutton Nali", "price": 2850 },
+        { "name": "Mutton Tikka Boti", "price": 2510 },
+        { "name": "Mutton Seekh Kabab", "price": 1980 },
+        { "name": "Mughlai Mutton Kabab", "price": 2170 },
+        { "name": "Fish Tikka", "price": 1960 },
+        { "name": "Chicken Dumpukht", "price": 2060 },
+        { "name": "BBQ Grilled Prawn", "price": 2700 },
+        { "name": "Irani Fish Tikka", "price": 2330 },
+        { "name": "Chicken Malai Boti", "price": 1770 },
+        { "name": "Chicken Tikka Boti", "price": 1670 },
+        { "name": "Chicken Tikka Leg Piece", "price": 670 },
+        { "name": "Chicken Rajasthani Boti", "price": 1790 },
+        { "name": "Chicken Shikarpuri Boti", "price": 1790 },
+        { "name": "Turkish Boti", "price": 1790 },
+        { "name": "Chicken Seekh Kabab", "price": 1560 },
+        { "name": "Chicken Reshmi Kabab", "price": 1760 }
+      ]
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Pakistani (Mutton / Desi Murgh / Batair)",
+      "items": [
+        { "name": "Mutton Machli Steam Roast", "price": 4800 },
+        { "name": "Mutton Steam Roast", "price": 3800 },
+        { "name": "Desi Murgh Karahi", "price": 3760 },
+        { "name": "Desi Namkeen Murgh", "price": 3760 },
+        { "name": "Namkeen Gosht", "price": 4370 },
+        { "name": "Mutton Dumpukht", "price": 6080 },
+        { "name": "Special Fried Batair", "price": 2030 },
+        { "name": "Mutton Karahi (Full/Half)", "price": "4150 / 2380" },
+        { "name": "Special Karahi Mutton", "price": 4260 },
+        { "name": "Sultan Gosht", "price": 4490 },
+        { "name": "Mughlai Mutton Machli", "price": 4320 }
+      ]
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Pakistani (Chicken / Rice & Vegetables)",
+      "items": [
+        { "name": "Mutton Makhni Handi (Full/Half)", "price": "3850 / 2060" },
+        { "name": "Mutton Handi (Full/Half)", "price": "3830 / 2020" },
+        { "name": "Chicken Karahi (Full/Half)", "price": "2440 / 1340" },
+        { "name": "Chicken Rogan Josh", "price": 2250 },
+        { "name": "Chicken Handi (Full/Half)", "price": "2140 / 1200" },
+        { "name": "Chicken Badami Handi", "price": 2190 },
+        { "name": "Chicken Makhni Handi", "price": 2150 },
+        { "name": "Chicken Achari Handi", "price": 2160 },
+        { "name": "Chicken Lime Chilli Handi", "price": 2140 },
+        { "name": "Chicken Ginger", "price": 1970 },
+        { "name": "Chicken Jalfrezi", "price": 1980 },
+        { "name": "Chicken Mughlai Handi", "price": 2190 },
+        { "name": "Mutton Biryani", "price": 2330 },
+        { "name": "Chicken Biryani", "price": 1330 },
+        { "name": "Daal Mash", "price": 890 },
+        { "name": "Mix Vegetables", "price": 1070 },
+        { "name": "Daal Makhni", "price": 900 },
+        { "name": "Mutton Hareesa", "price": 1550 }
+      ]
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Chinese (Gravies)",
+      "items": [
+        { "name": "Chicken Manchurian", "price": 1490 },
+        { "name": "Thai Chicken Ginger", "price": 1580 },
+        { "name": "Almond Chicken", "price": 1640 },
+        { "name": "Hot Garlic Chicken", "price": 1530 },
+        { "name": "Kung Pao Chicken", "price": 1640 },
+        { "name": "Szechwan Chicken", "price": 1580 },
+        { "name": "Chicken Cashewnut", "price": 1640 },
+        { "name": "Chicken Black Pepper", "price": 1690 },
+        { "name": "Chicken Chilli Mint", "price": 1750 },
+        { "name": "Hot Pot Chicken", "price": 1690 },
+        { "name": "Chicken Chilli Dry", "price": 1720 }
+      ]
+    },
+    {
+      "categoryId": 6,
+      "categoryName": "Chinese (Soups / Rice & Chowmein)",
+      "items": [
+        { "name": "Mongolian Chicken", "price": 1690 },
+        { "name": "Fish Chilli Dry", "price": 2150 },
+        { "name": "Prawns Chilli Dry", "price": 2240 },
+        { "name": "Mughal Mahal Special Soup", "price": 1760 },
+        { "name": "Hot & Sour Soup", "price": 1430 },
+        { "name": "Chicken Corn Soup", "price": 1510 },
+        { "name": "Szechwan Soup", "price": 1630 },
+        { "name": "Egg Fried Rice", "price": 1070 },
+        { "name": "Chicken Fried Rice", "price": 1170 },
+        { "name": "Vegetable Fried Rice", "price": 1050 },
+        { "name": "Chicken Masala Rice", "price": 1170 },
+        { "name": "Chicken Chowmein", "price": 1550 }
+      ]
+    },
+    {
+      "categoryId": 7,
+      "categoryName": "Continental",
+      "items": [
+        { "name": "Grilled Fish with Lemon Butter Sauce", "price": 2620 },
+        { "name": "Peri Peri Chicken", "price": 1720 },
+        { "name": "Tarragon Chicken", "price": 1750 },
+        { "name": "Jalapeno Chicken", "price": 1750 },
+        { "name": "Swiss Polo Chicken", "price": 1700 },
+        { "name": "Chicken Mushroom Steak", "price": 1740 },
+        { "name": "Chicken Black Pepper Steak", "price": 1740 },
+        { "name": "Chicken Mexican Steak", "price": 1740 },
+        { "name": "Chicken Italian Steak", "price": 1740 },
+        { "name": "Chicken Alfredo Pasta", "price": 1630 },
+        { "name": "Chicken Cheese Penne Pasta", "price": 1630 },
+        { "name": "Chicken Supreme Nachos", "price": 1090 },
+        { "name": "Loaded Fries", "price": 890 }
+      ]
+    },
+    {
+      "categoryId": 8,
+      "categoryName": "Salad / Roti & Naan",
+      "items": [
+        { "name": "Salad Bar", "price": 1240 },
+        { "name": "Mughal Mahal Special Salad", "price": 1060 },
+        { "name": "Russian Salad", "price": 850 },
+        { "name": "Chicken Pineapple Salad", "price": 890 },
+        { "name": "Fresh Salad", "price": 460 },
+        { "name": "Kachumar Salad", "price": 520 },
+        { "name": "Red Beans Salad", "price": 650 },
+        { "name": "Sweet Corn Salad", "price": 680 },
+        { "name": "Mint Sauce", "price": 220 },
+        { "name": "Raita Zeera", "price": 210 },
+        { "name": "Tandoori Paratha", "price": 270 },
+        { "name": "Tandoori Roti", "price": 150 },
+        { "name": "Roghni Naan", "price": 160 },
+        { "name": "Afghani Naan", "price": 330 },
+        { "name": "Kalvanji Naan", "price": 190 },
+        { "name": "Garlic Naan", "price": 190 },
+        { "name": "Cheese Naan", "price": 630 },
+        { "name": "Chicken Cheese Naan", "price": 720 }
+      ]
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "Desserts",
+      "items": [
+        { "name": "Chocolate Overload", "price": 1360 },
+        { "name": "Molten Lava Cake", "price": 930 },
+        { "name": "Mughal Mahal Special Brownie", "price": 690 },
+        { "name": "Cadbury Dairy Milk Cake Slice", "price": 580 },
+        { "name": "Pineapple Cake Slice", "price": 360 },
+        { "name": "Black Forest Cake Slice", "price": 360 },
+        { "name": "Kheer", "price": 630 },
+        { "name": "Fruit Trifle", "price": 640 },
+        { "name": "Ice Cream (Double Scoop)", "price": 530 },
+        { "name": "Ice Cream (Single Scoop)", "price": 290 },
+        { "name": "Sweet Family Bowl (Hawaiian)", "price": 2200 },
+        { "name": "Sweet Family Bowl (Fruit Trifle)", "price": 1460 },
+        { "name": "Sweet Family Bowl (Kheer)", "price": 1460 }
+      ]
+    },
+    {
+      "categoryId": 10,
+      "categoryName": "Hot & Cold Drinks",
+      "items": [
+        { "name": "Mineral Water (1.5L)", "price": "200 / 140" },
+        { "name": "Can Pepsi / 7UP / Mirinda / Slim", "price": 170 },
+        { "name": "Fresh Lime", "price": 210 },
+        { "name": "Mint Margarita", "price": 350 },
+        { "name": "Lemonade", "price": 330 },
+        { "name": "Pina Colada", "price": 410 },
+        { "name": "Cold Coffee", "price": 430 },
+        { "name": "Fresh Juice (Any Flavor)", "price": 470 },
+        { "name": "Hot Tea", "price": 160 },
+        { "name": "Green Tea", "price": 140 },
+        { "name": "Cappuccino", "price": 360 },
+        { "name": "Cafe Latte", "price": 360 },
+        { "name": "Black Coffee", "price": 270 },
+        { "name": "Red Bull", "price": 610 }
+      ]
+    }
+  ]
+}

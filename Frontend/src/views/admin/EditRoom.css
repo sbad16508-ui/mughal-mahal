@@ -1,0 +1,28 @@
+
+
+.create-room-btn {
+  background-color: #d4af37; 
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.gray-input {
+  background-color: #f3f4f6 !important;
+  border: none !important;
+  padding: 12px;
+  border-radius: 8px;
+  color: #6b7280;
+}
+.white-input {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb !important;
+  padding: 12px;
+  border-radius: 8px;
+}

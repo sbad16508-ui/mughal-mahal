@@ -1,0 +1,382 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banquet-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.banquet-hero {
+  min-height: 70vh;
+  display: grid;
+  place-items: center;
+  background: center/cover no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.banquet-hero-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  padding: 0 20px;
+  max-width: 900px;
+}
+
+.banquet-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.banquet-hero-content p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+
+.banquet-slider-section {
+  padding: 24px 0;
+  background: #fff;
+}
+
+.slider-header {
+  max-width: 900px;
+  margin: 0 auto 16px;
+  text-align: center;
+}
+
+.slider-header h2 {
+  font-size: 2rem;
+  color: #b68c34;
+  margin-bottom: 12px;
+}
+
+.slider-header p {
+  font-size: 1rem;
+  color: #1b1b1b;
+  line-height: 1.7;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  padding: 0 10px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.slider-feature-image {
+  display: flex;
+  justify-content: center;
+  margin: 18px auto 10px;
+  max-width: 760px;
+}
+
+.slider-feature-image img {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.slider-item {
+  width: auto;
+  max-width: 720px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.14);
+  background: #fff;
+}
+
+.slider-item img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+}
+
+
+.slider-control {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.slider-control:hover {
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 900px) {
+  .slider-wrapper {
+    flex-direction: column;
+  }
+
+  .slider-item {
+    max-width: 100%;
+  }
+
+  .slider-control {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.gallery-card {
+  border-radius: 28px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.14);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: #f8f8f8;
+}
+
+.gallery-card-body {
+  padding: 22px;
+}
+
+.gallery-card-body h3 {
+  font-size: 1.3rem;
+  color: #1b1b1b;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .banquet-list {
+    grid-template-columns: 1fr;
+  }
+
+  .banquet-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .banquet-long {
+    margin: auto;
+  }
+
+  .banquet-image img {
+    height: 320px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
+
+
+.banquet-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr; 
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.banquet-image {
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.22);
+  transition: transform 0.4s ease;
+}
+
+.banquet-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+  transition: transform 0.4s ease;
+}
+
+.banquet-image:hover {
+  transform: translateY(-3px);
+}
+
+.banquet-image img:hover {
+  transform: scale(1.03);
+}
+
+.banquet-content h3 {
+  font-size: 2rem;
+  color: #b68c34;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.banquet-long {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 25px;
+  max-width: 650px;
+}
+.banquet-btn {
+  padding: 14px 34px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #c9a13a, #a97c1f);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.banquet-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(201,161,58,0.45);
+}
+
+.banquet-newsletter {
+  padding: 90px 10%;
+  text-align: center;
+  background: rgba(201, 161, 58, 0.06);
+}
+
+.banquet-newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.banquet-query-section {
+  padding: 32px 20px;
+  background: rgba(248, 244, 234, 0.9);
+  text-align: center;
+}
+
+.banquet-query-wrap {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.banquet-query-btn {
+  background: #b77a00;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.banquet-query-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 25px rgba(183, 122, 0, 0.2);
+}
+
+.banquet-newsletter p {
+  margin-bottom: 25px;
+  color: #1b1b1b;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  padding: 14px 18px;
+  width: 280px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  background: #b68c34;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.banquet-footer {
+  text-align: center;
+  padding: 30px 0;
+  background: #1b1b1b;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 900px) {
+  .banquet-list {
+    grid-template-columns: 1fr;
+  }
+
+  .banquet-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .banquet-long {
+    margin: auto;
+  }
+
+  .banquet-image img {
+    height: 320px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}

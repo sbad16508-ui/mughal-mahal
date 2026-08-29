@@ -1,0 +1,99 @@
+
+.offer-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.offer-modal {
+  width: 520px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 22px 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+  font-family: "Poppins", sans-serif;
+}
+
+
+.offer-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.offer-modal-header h3 {
+  font-size: 20px;
+  color: #3b2f2f;
+}
+
+.close-btn {
+  font-size: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #8b5e34;
+}
+
+
+.offer-modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.field-group input,
+.field-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.field-group textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.field-row {
+  display: flex;
+  gap: 12px;
+}
+
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.btn-cancel {
+  background: #eee;
+  color: #444;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-confirm {
+  background: #9b7e3c;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}

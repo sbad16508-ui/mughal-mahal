@@ -1,0 +1,143 @@
+.redbox-page {
+  padding: 80px 8%;
+  background: #070707;
+  min-height: 100vh;
+  color: #f4f4f4;
+}
+
+.redbox-hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.redbox-image {
+  flex: 1;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.35);
+}
+
+.redbox-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.redbox-copy {
+  flex: 1;
+}
+
+.redbox-page-wrapper .room-page-content {
+  justify-content: center;
+}
+
+.redbox-page-wrapper .room-page-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.redbox-page-wrapper .room-page-copy p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.redbox-small {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #b68c34;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.redbox-copy h1 {
+  font-size: 3.5rem;
+  line-height: 1.05;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.redbox-copy p {
+  font-size: 1rem;
+  color: #d9d9d9;
+  line-height: 1.9;
+  margin-bottom: 30px;
+  max-width: 640px;
+}
+
+.redbox-order-section {
+  margin-top: 40px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.redbox-order-actions-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 16px;
+  max-width: 720px;
+  width: 100% !important;
+  margin: 0 auto 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.redbox-order-actions-wrapper p {
+  color: #c9c9c9;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.redbox-order-actions-wrapper button {
+  min-width: 180px;
+}
+
+.redbox-meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.redbox-meta button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.redbox-meta button:hover {
+  background: #ffffff;
+  color: #070707;
+}
+
+@media (max-width: 900px) {
+  .redbox-hero {
+    flex-direction: column;
+  }
+
+  .redbox-copy h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .redbox-page {
+    padding: 40px 5%;
+  }
+}

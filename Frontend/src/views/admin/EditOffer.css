@@ -1,0 +1,8 @@
+.edit-offer-page { padding: 24px; background: #f9fafb; min-height: 100vh; }
+.edit-layout { display: grid; grid-template-columns: 1fr 300px; gap: 24px; }
+.form-card, .side-card { background: white; padding: 24px; border-radius: 12px; border: 1px solid #e5e7eb; margin-bottom: 20px; }
+.form-group { margin-bottom: 15px; display: flex; flex-direction: column; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+input, select, textarea { padding: 10px; border: 1px solid #d1d5db; border-radius: 6px; margin-top: 5px; }
+.btn-update { background: #cba33b; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; width: 100%; margin-bottom: 10px; }
+.btn-cancel { background: white; border: 1px solid #d1d5db; width: 100%; padding: 10px; border-radius: 6px; cursor: pointer; }

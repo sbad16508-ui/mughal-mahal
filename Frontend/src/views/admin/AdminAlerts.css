@@ -1,0 +1,13 @@
+.alerts-container { padding: 30px; background: #f9fafb; min-height: 100vh; }
+.back-btn { background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 8px; margin-bottom: 20px; font-weight: 600; }
+.alerts-header { margin-bottom: 30px; }
+.alert-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 40px; }
+.stat-card { background: white; padding: 20px; border-radius: 12px; border: 1px solid #e5e7eb; }
+.alert-card { background: white; padding: 20px; border-radius: 12px; border: 1px solid #e5e7eb; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 6px solid #e5e7eb; }
+.critical-stock { border-left-color: #ef4444; background: #fef2f2; }
+.low-stock { border-left-color: #eab308; background: #fefce8; }
+
+.alert-info h3 span { font-size: 12px; padding: 2px 8px; border-radius: 10px; background: #eee; margin-left: 10px; }
+.alert-actions { display: flex; gap: 10px; }
+.view-btn { padding: 8px 16px; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; }
+.restock-btn { padding: 8px 16px; background: #eab308; color: white; border: none; border-radius: 6px; cursor: pointer; }

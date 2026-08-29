@@ -1,0 +1,137 @@
+
+.room-section {
+  background: linear-gradient(135deg, #fff8f0, #fff4e5);
+  font-family: 'Poppins', sans-serif;
+  color: #3a3a3a;
+  padding: 120px 20px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+.room-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.room-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #b76e03;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.room-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #b76e03;
+  margin-bottom: 60px;
+}
+
+
+.room-image-wrapper {
+  overflow: hidden;
+  border-radius: 25px;
+  position: relative;
+}
+
+.room-img {
+  border-radius: 25px;
+  transition: transform 1s ease, filter 1s ease;
+}
+
+.room-img:hover {
+  transform: scale(1.08);
+  filter: brightness(1.15);
+}
+
+
+.carousel-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item img {
+  transition: transform 1.5s ease-out;
+}
+
+.carousel-item.active img {
+  transform: scale(1.05);
+}
+
+
+.room-caption {
+  bottom: 30px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 20px;
+  padding: 20px 30px;
+  animation: captionSlide 1s ease forwards;
+}
+
+.caption-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffd166;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1s forwards;
+}
+
+.caption-text {
+  font-size: 1rem;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideIn 1s 0.2s forwards;
+}
+
+
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes captionSlide {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.custom-control {
+  background-color: rgba(183, 110, 3, 0.9);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.custom-control:hover {
+  background-color: #d97706;
+  transform: scale(1.15);
+}
+
+
+.carousel-indicators button {
+  background-color: #b76e03;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background-color: #ffd166;
+}
+
+
+@media (max-width: 768px) {
+  .room-title { font-size: 2.2rem; }
+  .caption-title { font-size: 1.4rem; }
+  .caption-text { font-size: 0.9rem; }
+}

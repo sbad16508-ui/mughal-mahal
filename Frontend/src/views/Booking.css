@@ -1,0 +1,12 @@
+.booking-login-prompt {
+  max-width: 760px;
+  margin: 80px auto;
+  padding: 28px 30px;
+  background: #fff9ed;
+  border: 1px solid rgba(183, 110, 3, 0.18);
+  border-radius: 16px;
+  text-align: center;
+  color: #6b4f24;
+  font-size: 1.05rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}

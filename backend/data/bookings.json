@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1787826073893",
+    "guestName": "mhammads",
+    "email": "hhh@gmail.com",
+    "phone": "+923333333333",
+    "address": "hhh",
+    "bookingType": "Room",
+    "roomVenue": {
+      "type": "deluxe-king-room",
+      "selectedRoom": "111"
+    },
+    "checkInDate": "2026-08-27",
+    "checkOutDate": "2026-08-28",
+    "specialRequests": "Adults: 1; Selected Room: 111",
+    "paymentMethod": "cash",
+    "paymentStatus": "pending",
+    "totalAmount": 14000,
+    "paidAmount": 0,
+    "internalNotes": "Selected Room 111",
+    "status": "pending",
+    "roomNo": "111",
+    "roomType": "deluxe-king-room",
+    "createdAt": "2026-08-27T10:21:13.894Z"
+  }
+]

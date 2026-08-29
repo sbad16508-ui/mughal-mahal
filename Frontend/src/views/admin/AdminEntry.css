@@ -1,0 +1,7 @@
+.admin-entry-page { display:flex; flex-direction:column; min-height:100vh; }
+.ae-header { display:flex; justify-content:space-between; align-items:center; padding:16px 24px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.05); }
+.ae-brand { font-weight:700; letter-spacing:1px }
+.ae-nav { display:flex; gap:12px }
+.ae-btn { padding:8px 12px; border-radius:4px; border:1px solid #ddd; background:#f6f7fb }
+.ae-btn.ae-admin { background:#d4a017; color:#fff; border-color:transparent }
+.ae-main { flex:1; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:48px }

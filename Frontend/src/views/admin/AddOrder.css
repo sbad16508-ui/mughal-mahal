@@ -1,0 +1,11 @@
+.add-order-container { padding: 30px; background-color: #f8f9fa; min-height: 100vh; }
+.add-order-header { display: flex; align-items: center; gap: 20px; margin-bottom: 25px; }
+.add-order-grid { display: grid; grid-template-columns: 1fr 300px; gap: 25px; }
+.form-card { background: white; padding: 25px; border-radius: 12px; border: 1px solid #eee; margin-bottom: 25px; }
+.order-item-row { display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 10px; margin-bottom: 15px; align-items: center; }
+.full-width { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ddd; }
+.btn-add-item { background: #f3f4f6; border: none; padding: 10px; width: 100%; border-radius: 8px; cursor: pointer; }
+.btn-del { background: #fee2e2; color: #dc2626; border: none; padding: 10px; border-radius: 8px; cursor: pointer; }
+.billing-summary .bill-row { display: flex; justify-content: space-between; margin-bottom: 10px; }
+.billing-summary .total { border-top: 1px solid #eee; padding-top: 10px; font-weight: 700; font-size: 18px; }
+.btn-create-order { width: 100%; background-color: #d4a017; color: white; border: none; padding: 14px; border-radius: 8px; font-weight: 700; cursor: pointer; margin-top: 20px; }

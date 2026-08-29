@@ -1,0 +1,449 @@
+.cbm-overlay {
+  position: fixed;
+  inset: 0;
+  /* top area fully white to mask underlying content, then dark overlay */
+  background: linear-gradient(to bottom, #ffffff 0px, #ffffff 120px, rgba(0, 0, 0, 0.82) 120px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.cbm-modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  width: min(720px, 100%);
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  position: relative;
+  animation: slideUp 0.3s ease-out;
+  margin: auto;
+  padding: 34px 28px 42px;
+  z-index: 10000;
+  align-self: center;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cbm-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  background: #f4f4f4;
+  border: none;
+  border-radius: 50%;
+  font-size: 26px;
+  cursor: pointer;
+  color: #333;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.cbm-close:hover {
+  color: #ffffff;
+  background: #e74c3c;
+  transform: scale(1.05);
+}
+
+.cbm-modal h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin: 0;
+  padding: 14px 16px;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2147483647;
+  background: #ffffff;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Ensure modal content doesn't sit under the absolutely positioned heading */
+.cbm-modal {
+  padding-top: 76px;
+}
+
+/* Keep the modal centered in the viewport even with scrolling */
+.cbm-overlay {
+  align-items: center;
+}
+
+.cbm-modal {
+  top: 0;
+  bottom: 0;
+}
+
+/* Create a fixed white mask at the top of the overlay to hide any underlying text */
+.cbm-overlay::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: #ffffff;
+  z-index: 2147483646;
+  pointer-events: none;
+}
+
+.cbm-form {
+  padding: 0 25px 25px;
+}
+
+.cbm-section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.cbm-section:last-of-type {
+  border-bottom: none;
+}
+
+.cbm-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+.cbm-input,
+.cbm-select,
+.cbm-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.cbm-input:focus,
+.cbm-select:focus,
+.cbm-textarea:focus {
+  outline: none;
+  border-color: #8e44ad;
+  box-shadow: 0 0 0 3px rgba(142, 68, 173, 0.1);
+}
+
+.cbm-input:disabled,
+.cbm-disabled {
+  background-color: #f5f5f5;
+  color: #7f8c8d;
+  cursor: not-allowed;
+}
+
+.cbm-form label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.cbm-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.cbm-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.cbm-textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.cbm-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.cbm-total strong {
+  color: #2c3e50;
+}
+
+.cbm-total span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #8e44ad;
+}
+
+.cbm-pricing-summary {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 15px;
+  border-left: 4px solid #8e44ad;
+}
+
+.cbm-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.cbm-summary-row:last-child {
+  border-bottom: none;
+}
+
+.cbm-summary-row span {
+  color: #2c3e50;
+}
+
+.cbm-summary-row strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.cbm-summary-total {
+  background: #f0e8f7;
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.cbm-summary-total strong {
+  font-size: 16px;
+}
+
+.cbm-status-display {
+  background: white;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+}
+
+.cbm-available {
+  color: #27ae60;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cbm-booked {
+  color: #e74c3c;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cbm-checking {
+  color: #f39c12;
+  font-size: 14px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.cbm-error {
+  background-color: #fadbd8;
+  color: #c0392b;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  border-left: 4px solid #c0392b;
+}
+
+.cbm-success {
+  background-color: #d5f4e6;
+  color: #27ae60;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  border-left: 4px solid #27ae60;
+}
+
+.cbm-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  padding-bottom: 12px;
+}
+
+.cbm-submit,
+.cbm-cancel {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cbm-submit {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.cbm-submit:hover:not(:disabled) {
+  background-color: #7d3c98;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(142, 68, 173, 0.3);
+}
+
+.cbm-submit:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.cbm-cancel {
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+.cbm-cancel:hover:not(:disabled) {
+  background-color: #d5dbdb;
+}
+
+.cbm-cancel:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cbm-modal {
+    max-width: 95%;
+    max-height: 95vh;
+  }
+
+  .cbm-form {
+    padding: 0 15px 15px;
+  }
+
+  .cbm-grid-2,
+  .cbm-grid-3 {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .cbm-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .cbm-input,
+  .cbm-select,
+  .cbm-textarea {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cbm-close {
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+  }
+
+  .cbm-modal h2 {
+    font-size: 18px;
+    margin: 15px 0 20px;
+  }
+
+  .cbm-section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  .cbm-section h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Force-hide logo/header elements while modal is open */
+body.cbm-modal-open .hotel-logo,
+body.cbm-modal-open .hotel-logo img,
+body.cbm-modal-open .logo,
+body.cbm-modal-open .animated-navbar {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Also hide any logo image file while modal is open (cover edge cases) */
+body.cbm-modal-open img[src*="logo"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide page content sections that sit under the modal to avoid any overlap */
+body.cbm-modal-open .conference-hero,
+body.cbm-modal-open .conference-details,
+body.cbm-modal-open .conference-query,
+body.cbm-modal-open .conference-newsletter {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Ensure the modal overlay and modal stay visible */
+body.cbm-modal-open .cbm-overlay,
+body.cbm-modal-open .cbm-modal,
+body.cbm-modal-open .cbm-modal h2 {
+  display: flex !important;
+  visibility: visible !important;
+}

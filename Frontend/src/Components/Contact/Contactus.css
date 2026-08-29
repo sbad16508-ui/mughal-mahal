@@ -1,0 +1,221 @@
+:root {
+  --primary-gold: #b68c34;
+  --secondary-gold: #c9a13a;
+  --dark-bg: #1c1b1b;
+  --light-bg: #fdf6e3;
+  --text-dark: #333;
+  --text-light: #fdf6e3;
+}
+
+.hero-section {
+  position: relative;
+  height: 50vh;
+  background-image: url('https://mughalmahal.pk/wp-content/uploads/2022/07/IMG_6926.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.4);
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+
+.hero-overlay h1 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-gold);
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px rgba(182,140,52,0.8);
+}
+
+
+.form-section {
+  padding: 5rem 1rem;
+  background: var(--light-bg);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.contact-info h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: var(--primary-gold);
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+}
+
+.info-list p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+
+.contact-form h3 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-gold);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-gold);
+  box-shadow: 0 0 10px rgba(198,140,52,0.6);
+}
+
+label {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  color: #888;
+  font-family: 'Playfair Display', serif;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+input:focus + label,
+textarea:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:not(:placeholder-shown) + label {
+  top: -0.7rem;
+  left: 1rem;
+  font-size: 0.85rem;
+  color: var(--primary-gold);
+  background: var(--light-bg);
+  padding: 0 0.25rem;
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, var(--secondary-gold), var(--primary-gold));
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(201,161,58,0.6);
+}
+
+.map-section {
+  background: linear-gradient(to right, #fff8f0, #fff4e5);
+  padding: 4rem 1rem 3rem;
+}
+
+.map-outer {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.map-outer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
+.map-outer:hover {
+  transform: scale(1.02);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+
+.map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+  animation: pulse 6s infinite alternate ease-in-out;
+  border-radius: 20px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0.6;
+  }
+}
+
+.contact-page .map-wrapper,
+.contact-page .map-outer,
+.contact-page .map-wrapper.aos-init,
+.contact-page .map-wrapper.aos-animate,
+.contact-page .map-outer.aos-init,
+.contact-page .map-outer.aos-animate {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.map-section iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+  border-radius: 1rem;
+  margin-top: -2rem;
+}
+
+
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-overlay h1 {
+    font-size: 3rem;
+  }
+}

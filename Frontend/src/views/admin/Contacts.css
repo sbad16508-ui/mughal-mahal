@@ -1,0 +1,80 @@
+.contacts-page {
+  padding: 30px;
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.contacts-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contacts-header p {
+  margin: 0;
+  color: #555;
+}
+
+.contact-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.contact-stat-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+}
+
+.contact-stat-card h3 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.contact-stat-card p {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.contacts-table-wrap {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.05);
+}
+
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contacts-table th,
+.contacts-table td {
+  padding: 18px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.contacts-table th {
+  background: #fafafa;
+  color: #444;
+  font-weight: 600;
+}
+
+.loading-row,
+.empty-row {
+  text-align: center;
+  padding: 24px;
+  color: #666;
+}

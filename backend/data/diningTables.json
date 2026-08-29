@@ -1,0 +1,89 @@
+[
+  {
+    "tableTypeId": "T1",
+    "tableTypeName": "T1 - 2 Seats",
+    "capacity": 2,
+    "quantity": 4,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false }
+    ]
+  },
+  {
+    "tableTypeId": "T2",
+    "tableTypeName": "T2 - 4 Seats",
+    "capacity": 4,
+    "quantity": 6,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false },
+      { "tableNumber": 5, "isBooked": false },
+      { "tableNumber": 6, "isBooked": false }
+    ]
+  },
+  {
+    "tableTypeId": "T3",
+    "tableTypeName": "T3 - 6 Seats",
+    "capacity": 6,
+    "quantity": 7,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false },
+      { "tableNumber": 5, "isBooked": false },
+      { "tableNumber": 6, "isBooked": false },
+      { "tableNumber": 7, "isBooked": false }
+    ]
+  },
+  {
+    "tableTypeId": "T4",
+    "tableTypeName": "T4 - 8 Seats",
+    "capacity": 8,
+    "quantity": 6,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false },
+      { "tableNumber": 5, "isBooked": false },
+      { "tableNumber": 6, "isBooked": false }
+    ]
+  },
+  {
+    "tableTypeId": "T5",
+    "tableTypeName": "T5 - Family Seats",
+    "capacity": 10,
+    "quantity": 8,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false },
+      { "tableNumber": 5, "isBooked": false },
+      { "tableNumber": 6, "isBooked": false },
+      { "tableNumber": 7, "isBooked": false },
+      { "tableNumber": 8, "isBooked": false }
+    ]
+  },
+  {
+    "tableTypeId": "T6",
+    "tableTypeName": "T6 - King Seats",
+    "capacity": 12,
+    "quantity": 8,
+    "tables": [
+      { "tableNumber": 1, "isBooked": false },
+      { "tableNumber": 2, "isBooked": false },
+      { "tableNumber": 3, "isBooked": false },
+      { "tableNumber": 4, "isBooked": false },
+      { "tableNumber": 5, "isBooked": false },
+      { "tableNumber": 6, "isBooked": false },
+      { "tableNumber": 7, "isBooked": false },
+      { "tableNumber": 8, "isBooked": false }
+    ]
+  }
+]

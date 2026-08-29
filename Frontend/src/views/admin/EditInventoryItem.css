@@ -1,0 +1,12 @@
+.edit-item-page { padding: 30px; background: #f9fafb; min-height: 100vh; }
+.edit-container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-top: 20px; }
+.form-card { background: white; padding: 25px; border-radius: 12px; border: 1px solid #e5e7eb; margin-bottom: 20px; }
+.grid-form { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.form-card input, .form-card select, .form-card textarea { 
+    width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; 
+}
+.form-card textarea { height: 100px; margin-top: 15px; }
+.upload-box { border: 2px dashed #cbd5e1; padding: 40px; text-align: center; color: #6b7280; cursor: pointer; border-radius: 6px; }
+.action-btns { display: flex; flex-direction: column; gap: 10px; }
+.update-btn { padding: 12px; background: #ca8a04; color: white; border: none; border-radius: 6px; cursor: pointer; }
+.cancel-btn { padding: 12px; background: white; border: 1px solid #d1d5db; border-radius: 6px; cursor: pointer; }

@@ -1,0 +1,219 @@
+nav.navbar {
+  width: 100%;
+  padding: 18px 32px;
+  background: #fff;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hotel-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.hotel-logo img {
+  width: 260px;
+  max-width: 260px;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand-animate {
+  font-size: 1rem;
+  color: #111827;
+  margin: 0;
+}
+
+.navbar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.user-dropdown {
+  position: relative;
+}
+
+.user-trigger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.user-icon {
+  font-size: 1.35rem;
+  color: #6b7280;
+}
+
+.user-name {
+  font-weight: 600;
+  color: #111827;
+}
+
+.dropdown-menu-custom {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  background: #ffffff;
+  width: 220px;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  padding: 10px 0;
+  z-index: 999;
+}
+
+.dropdown-menu-custom a,
+.dropdown-menu-custom button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  color: #111827;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu-custom a:hover,
+.dropdown-menu-custom button:hover {
+  background: rgba(17, 24, 39, 0.05);
+  color: #b68c34;
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 6px 0;
+}
+
+.logout-btn {
+  color: #b91c1c;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background: rgba(185, 28, 28, 0.08);
+}
+
+/* Trigger */
+.user-trigger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.user-trigger:hover {
+  background: rgba(201, 161, 58, 0.12);
+}
+
+.user-icon {
+  font-size: 1.8rem;
+  color: #b68c34;
+}
+
+.user-name {
+  font-weight: 500;
+  color: #1b1b1b;
+}
+
+/* ===== DROPDOWN MENU (HIDDEN BY DEFAULT) ===== */
+.dropdown-menu-custom {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  background: #ffffff;
+  width: 210px;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+  padding: 10px 0;
+  z-index: 999;
+
+  /* Animation setup */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu-custom.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ===== SHOW ON HOVER ===== */
+.user-dropdown:hover .dropdown-menu-custom {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ===== DROPDOWN ITEMS ===== */
+.dropdown-menu-custom a,
+.dropdown-menu-custom button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  color: #1b1b1b;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu-custom a:hover,
+.dropdown-menu-custom button:hover {
+  background: rgba(201, 161, 58, 0.15);
+  color: #b68c34;
+}
+
+/* Divider */
+.dropdown-divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 6px 0;
+}
+
+/* Logout emphasis */
+.logout-btn {
+  color: #a94442;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  background: rgba(169, 68, 66, 0.08);
+  color: #a94442;
+}

@@ -1,0 +1,238 @@
+.login-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  padding: 24px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.login-modal {
+  width: 100%;
+  max-width: 420px;
+  min-width: 0;
+  max-height: calc(100vh - 48px);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px 30px;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  transform: translateY(0);
+}
+
+.login-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: rgba(0, 0, 0, 0.06);
+  color: #333;
+  font-size: 1.5rem;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.login-modal-close:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.login-modal-header h3 {
+  margin: 0 0 10px;
+  font-size: 1.55rem;
+  color: #b76e03;
+}
+
+.login-modal-header p {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 0 22px;
+  color: #5b5b5b;
+  font-size: 0.96rem;
+  white-space: normal !important;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.login-modal-form {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+.login-modal-form label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.login-modal-form input {
+  display: block;
+  width: 100% !important;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.login-modal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.login-modal-grid > div {
+  width: 100%;
+}
+
+.login-modal-error {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  color: #a33;
+  font-size: 0.95rem;
+  white-space: normal !important;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.login-modal-success {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  color: #1b6631;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  white-space: normal !important;
+  text-align: left;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.login-modal-password-note {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: -12px;
+  margin-bottom: 14px;
+  color: #b76e03;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.login-modal-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.login-modal-submit {
+  min-width: 170px;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #c9a13a, #b76e03);
+  border: none;
+  color: #fff;
+  border-radius: 28px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-modal-switch {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.login-modal-switch strong {
+  overflow-wrap: anywhere;
+}
+
+.login-modal-link {
+  background: none;
+  border: none;
+  color: #b76e03;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.login-modal-link:hover {
+  color: #8c5f00;
+}
+
+/* Preview image styling to avoid oversized previews */
+.login-modal-image-preview {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login-modal-image-preview img {
+  max-width: 140px;
+  max-height: 140px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 500px) {
+  .login-modal {
+    width: 100%;
+    padding: 22px 18px;
+  }
+
+  .login-modal-header p {
+    font-size: 0.78rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .login-modal-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .login-modal-submit {
+    width: 100%;
+  }
+
+  .login-modal-password-note {
+    font-size: 0.74rem;
+  }
+}

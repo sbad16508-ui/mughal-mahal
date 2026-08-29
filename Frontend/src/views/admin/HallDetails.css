@@ -1,0 +1,74 @@
+.hall-details-container {
+  padding: 30px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+.hall-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.header-left { display: flex; align-items: center; gap: 20px; }
+.back-btn-sq { 
+  background: white; border: 1px solid #ddd; padding: 10px 15px; 
+  border-radius: 8px; cursor: pointer; display: flex; align-items: center; gap: 8px;
+}
+.title-section h1 { margin: 0; font-size: 24px; color: #1a1a1a; }
+.title-section span { color: #888; font-size: 14px; }
+.btn-edit-hall {
+  background: white; border: 1px solid #ddd; padding: 10px 20px;
+  border-radius: 8px; font-weight: 600; cursor: pointer;
+  display: flex; align-items: center; gap: 8px;
+}
+.hall-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 25px;
+}
+.hall-card {
+  background: white; padding: 25px; border-radius: 12px;
+  border: 1px solid #eee; margin-bottom: 20px;
+}
+.hall-card h3 { margin-top: 0; font-size: 18px; margin-bottom: 20px; }
+.image-placeholder-card {
+  background: #7bb1f9; color: white; height: 320px;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+}
+.placeholder-icon { font-size: 80px; margin-bottom: 15px; opacity: 0.8; }
+.amenities-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+}
+.amenity-item {
+  background: #f8f9fa; padding: 12px; border-radius: 6px;
+  font-size: 14px; display: flex; align-items: center; gap: 10px;
+}
+.dot { height: 8px; width: 8px; background: #d4a017; border-radius: 50%; }
+.booking-item {
+  background: #f8f9fa; padding: 15px; border-radius: 8px;
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
+}
+.booking-info h4 { margin: 0 0 5px; font-size: 15px; }
+.booking-info p { margin: 0; font-size: 13px; color: #666; }
+.badge-confirmed {
+  background: #e6f7ff; color: #1890ff; padding: 5px 12px;
+  border-radius: 4px; font-size: 12px; font-weight: 600;
+}
+.detail-row {
+  display: flex; justify-content: space-between; margin-bottom: 15px; font-size: 15px;
+}
+.label { color: #666; }
+.bold { font-weight: 700; color: #000; }
+.value svg { margin-right: 5px; color: #888; }
+.price-block { margin-bottom: 20px; }
+.price-block p { margin: 0; color: #666; font-size: 14px; }
+.price-main { margin: 5px 0; color: #d4a017; font-size: 32px; }
+.price-sub { margin: 5px 0; font-size: 24px; color: #333; }
+.status-available {
+  background: #e6fcf5; color: #0ca678; padding: 4px 10px;
+  border-radius: 4px; font-size: 12px; font-weight: 700; margin-left: 10px;
+}
+.btn-book-hall {
+  width: 100%; background: #d4a017; color: white; border: none;
+  padding: 15px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 16px;
+}
