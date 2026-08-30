@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../views/RoomPage.css";
-import "./Redbox.css";
+import "./RedBox.css";
 import "../home/RedboxOrderModal.css";
 import redbox2 from "../../assets/Mediacenter/room/redbox2.PNG";
 import rmenu1 from "../../assets/Mediacenter/room/rmenu1.PNG";

@@ -3,6 +3,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import "./Slider.css"
 import { useEffect, useState } from "react"
 import axios from "axios"
+import hero1 from "../../assets/Mediacenter/home header/home1.PNG"
+import hero2 from "../../assets/Mediacenter/home header/home2.PNG"
+import hero3 from "../../assets/Mediacenter/home header/home3.PNG"
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api"
 
@@ -84,7 +87,7 @@ export default function Slider() {
 
           <div className="carousel-item active">
             <img
-              src="/src/assets/Mediacenter/home header/home1.PNG"
+              src={hero1}
               className="d-block w-100 hero-img"
               alt="Mughal Mahal - Home 1"
             />
@@ -99,7 +102,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <img
-              src="/src/assets/Mediacenter/home header/home2.PNG"
+              src={hero2}
               className="d-block w-100 hero-img"
               alt="Mughal Mahal - Home 2"
             />
@@ -112,7 +115,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <img
-              src="/src/assets/Mediacenter/home header/home3.PNG"
+              src={hero3}
               className="d-block w-100 hero-img"
               alt="Mughal Mahal - Home 3"
             />

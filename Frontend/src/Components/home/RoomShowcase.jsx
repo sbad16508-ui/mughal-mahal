@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./RoomShowcase.css";
+import roomImage from "../../assets/Mediacenter/Home/homep1.PNG";
 
 export default function RoomShowcase() {
   useEffect(() => {
@@ -24,17 +25,17 @@ export default function RoomShowcase() {
     {
       title: "Deluxe Twin Room",
       text: "Twins Bed, City View, Free Wifi, Luxury & Comfort.",
-      image: "/src/assets/mediacenter/ItemsImages/01-3-scaled.jpg",
+      image: roomImage,
     },
     {
       title: "Luxury Suite",
       text: "Royal comfort with modern styling for premium guests.",
-      image: "/src/assets/mediacenter/ItemsImages/01-3-scaled.jpg",
+      image: roomImage,
     },
     {
       title: "Executive Room",
       text: "Elegant space perfect for families & business travelers.",
-      image: "/src/assets/mediacenter/ItemsImages/01-3-scaled.jpg",
+      image: roomImage,
     },
   ];
 

@@ -1,11 +1,12 @@
 import React from "react";
+import itemImage from "../../assets/Mediacenter/Banner/download.jpg";
 
 export default function Items() {
   const items = [
-    { id: 1, title: "Item 1", img: "/src/assets/mediacenter/ItemsImages/download.jpg", price: "100" },
-    { id: 2, title: "Item 2", img: "/src/assets/mediacenter/ItemsImages/download.jpg", price: "150" },
-    { id: 3, title: "Item 3", img: "/src/assets/mediacenter/ItemsImages/download.jpg", price: "200" },
-    { id: 4, title: "Item 4", img: "/src/assets/mediacenter/ItemsImages/download.jpg", price: "250" }
+    { id: 1, title: "Item 1", img: itemImage, price: "100" },
+    { id: 2, title: "Item 2", img: itemImage, price: "150" },
+    { id: 3, title: "Item 3", img: itemImage, price: "200" },
+    { id: 4, title: "Item 4", img: itemImage, price: "250" }
   ];
 
   return (
